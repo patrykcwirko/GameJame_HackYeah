@@ -15,6 +15,10 @@ public:
 	// Sets default values for this actor's properties
 	ASphericalSphere();
 
+private:
+	UPROPERTY(Category = "Components", VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	UStaticMeshComponent* Mesh;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
