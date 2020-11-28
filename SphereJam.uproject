@@ -17,6 +17,10 @@
 		{
 			"Name": "CustomGravityPlugin",
 			"Enabled": true
+		},
+		{
+			"Name": "ApexDestruction",
+			"Enabled": true
 		}
 	]
 }
